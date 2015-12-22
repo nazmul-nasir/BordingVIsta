@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BordingVIsta</string>
+
+    <string name="DeptNo">DeptNo</string>
+    <string name="DeptText">DeptText</string>
+    <string name="Count">Count</string>
+    <string name="action_settings">Settings</string>
+</resources>
