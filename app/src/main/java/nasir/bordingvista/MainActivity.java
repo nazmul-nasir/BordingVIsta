@@ -35,12 +35,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
         });
 
-
-
-
-
-
-
     }
 
 
@@ -48,7 +42,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         Intent intent = new Intent(getApplicationContext(),JsonParsing.class);
         startActivity(intent);
-
 
     }
 }

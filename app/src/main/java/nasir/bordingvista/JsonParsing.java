@@ -36,20 +36,11 @@
 
             PostResponseAsyncTask loginTask = new PostResponseAsyncTask(this,postData);
             loginTask.execute("http://vikingmobile.bording.dk/agetor/vikingproxy/ArticleInq?ClientId=1&Store=4");
-
-
-
-
         }
 
         @Override
         public void processFinish(String result) {
             //Toast.makeText(this, "Result: "+result, Toast.LENGTH_LONG).show();
-
-
-
-
-
             ListView listView = (ListView) findViewById(R.id.listView);
             arrList = new ArrayList();
             try {
@@ -62,8 +53,6 @@
                 for (int i = 0; i < jArray.length(); i++) {
                    // Toast.makeText(this, "jArray: "+jArray, Toast.LENGTH_LONG).show();
                       HashMap<String, String> map1 = new HashMap();
-
-
                     JSONObject current = jArray.getJSONObject(i);
                     map1.put("DeptNo", current.getString("DeptNo"));
                     map1.put("DeptText", current.getString("DeptText"));
